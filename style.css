@@ -1,16 +1,8 @@
 * {
+    font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
     margin: 0;
     padding: 0;
-
-}
-
-.main {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 8rem;
 }
 
 .nav {
@@ -36,4 +28,33 @@
 
 .cart {
     margin-right: 4rem;
+}
+
+
+.main {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+}
+
+.main h1 {
+    font-style: italic;
+    letter-spacing: .3em;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.main > h1:hover {
+    transition: scale 1s ease-in-out;
+    scale: 1.1;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.line-height {
+    line-height: 1.5;
 }
